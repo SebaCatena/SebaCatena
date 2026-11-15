@@ -28,7 +28,7 @@
 - 🐍 Creo aplicaciones y APIs con **Python + Flask**, integrando servicios externos.
 - 🔐 Me importa la seguridad básica: variables de entorno, timeouts, validación y dependencias al día.
 - 🎯 Busco mi **primer rol como desarrollador fullstack** o proyectos freelance donde pueda seguir creciendo.
-- 📍 TU CIUDAD
+- 📍 Bahia Blanca 
 
 ### Lo que puedo aportar a un equipo
 
