@@ -58,16 +58,10 @@
 | **[API Flask Demo](https://github.com/SebaCatena/api-flask-demo)** | App Flask que consume una API externa, con búsqueda, detalle, manejo de errores y tests. | Python · Flask · Requests · Pytest | [Código](https://github.com/SebaCatena/api-flask-demo) |
 | **[Tu Tienda de Ropa](https://github.com/SebaCatena/tu-tienda-de-ropa)** | Sitio institucional desarrollado en equipo: home, productos, locales, contacto y formularios. | Bootstrap · JavaScript · CSS | [Código](https://github.com/SebaCatena/tu-tienda-de-ropa) |
 
-## Estadísticas
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=SebaCatena&show_icons=true&hide_rank=true&theme=tokyonight&locale=es" alt="Estadísticas de GitHub de Sebastián Catena">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SebaCatena&layout=compact&theme=tokyonight&locale=es" alt="Lenguajes más usados">
-</p>
 
 ## Contacto
 
-¿Tenés un proyecto en mente o una búsqueda abierta? Escribime por [LinkedIn](https://www.linkedin.com/in/TU-USUARIO/).
+¿Tenés un proyecto en mente o una búsqueda abierta? Escribime por [LinkedIn](https://www.linkedin.com/in/sebastian-catenacci-a404383b0/).
 
 <!--
   NOTAS PARA VOS (borrá este comentario antes de publicar):
