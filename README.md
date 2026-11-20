@@ -23,7 +23,7 @@
 
 ## Sobre mí
 
-- 🎓 Doy clases de informática en una escuela técnica: programación, hardware y herramientas digitales.
+- 🎓 Doy clases de informática en una escuela técnica: programación y herramientas digitales.
 - 🛠️ Tengo **12 años en soporte IT onsite e infraestructura**: diagnóstico, redes, sistemas y trato directo con usuarios.
 - 🐍 Desarrollo con **Python, Flask y SQLite**: migraciones versionadas, auditoría, validaciones y tests automatizados.
 - 📊 Analizo datos públicos con **pandas y matplotlib**: descargo desde APIs oficiales, calculo y publico informes reproducibles.
