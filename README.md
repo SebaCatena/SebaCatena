@@ -62,8 +62,9 @@
 |---|---|---|---|---|
 | **Inflación argentina (INDEC)** | ¿Qué le pasó al poder de compra entre 2016 y 2026? | **12.685,9%** acumulado; $100.000 de 2016 hoy equivalen a $782 | [Ver informe](https://sebacatena.github.io/datos-indec/) | [Ver código](https://github.com/SebaCatena/datos-indec) |
 | **Recaudación tributaria (ARCA/Hacienda + INDEC)** | ¿La recaudación le ganó a la inflación? | **+7.742,1% nominal**, pero **−38,7% real** frente al IPC | [Ver informe](https://sebacatena.github.io/recaudacion-tributaria/) | [Ver código](https://github.com/SebaCatena/recaudacion-tributaria) |
+| **Hidrocarburos e YPF (Secretaría de Energía + BCRA)** | ¿Creció más el gas o el petróleo, y YPF ganó o perdió terreno? | Gas **+71,0%** vs crudo **+10,3%**; YPF cayó del **34,8% al 19,5%** en gas | [Ver informe](https://sebacatena.github.io/hidrocarburos-ypf/) | [Ver código](https://github.com/SebaCatena/hidrocarburos-ypf) |
 
-Los dos informes se generan automáticamente: `descargar_datos.py` baja los datos de la API oficial, `analisis.py` calcula y dibuja, y GitHub Pages publica el resultado. Un `actualizar.bat` permite refrescarlos con doble clic en Windows.
+Los tres informes se generan automáticamente: `descargar_datos.py` baja los datos de la API oficial, `analisis.py` calcula y dibuja, y GitHub Pages publica el resultado. Un `actualizar.bat` permite refrescarlos con doble clic en Windows.
 
 ### Aplicaciones y sistemas
 
@@ -82,7 +83,7 @@ Los dos informes se generan automáticamente: `descargar_datos.py` baja los dato
 4. Grafico con matplotlib y escribo un informe con conclusiones, no solo gráficos.
 5. Publico el informe en GitHub Pages y dejo todo reproducible.
 
-Tengo un plan de **9 análisis de APIs públicas argentinas**: ya están los dos primeros (INDEC y recaudación). Siguen BCRA (dólar y tasas), producción industrial, IPC por rubro, pobreza/EPH, energía, educación, datos abiertos de Bahía Blanca y comparación internacional.
+Tengo un plan de **9 análisis de APIs públicas argentinas**: ya están los tres primeros (INDEC, recaudación e hidrocarburos). Siguen BCRA (dólar y tasas), producción industrial, IPC por rubro, pobreza/EPH, educación, datos abiertos de Bahía Blanca y comparación internacional.
 
 ## Formación
 
