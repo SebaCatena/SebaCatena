@@ -1,14 +1,18 @@
 <h1 align="center">Hola, soy Sebastián Catenacci 👋</h1>
 
-<h3 align="center">Docente de Informática · Desarrollador Fullstack en formación · Soporte IT</h3>
+<h3 align="center">Docente de Informática · Soporte IT (12 años) · Desarrollador Python/Flask · Análisis de datos</h3>
 
 <p align="center">
-  Enseño tecnología, resuelvo problemas y construyo aplicaciones web. Aprendo haciendo.
+  Enseño tecnología, diagnostico problemas reales y construyo sistemas y análisis con datos públicos.
+  Todo lo que publico se puede ejecutar, verificar y explicar.
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sebastian-catenacci-a404383b0/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="mailto:catenaccisebastian@gmail.com">
+    <img src="https://img.shields.io/badge/Email-1D76DB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
   <a href="https://github.com/SebaCatena?tab=repositories">
     <img src="https://img.shields.io/badge/Proyectos-181717?style=for-the-badge&logo=github&logoColor=white" alt="Proyectos">
@@ -19,20 +23,20 @@
 
 ## Sobre mí
 
-- 🎓 Doy clases de informática en una escuela técnica: enseño programación, hardware y uso de herramientas digitales.
-- 🛠️ Vengo del **soporte IT onsite**: diagnóstico de equipos, redes, sistemas y trato directo con usuarios.
-- 🧩 Desarrollo interfaces **responsive** con HTML, CSS, JavaScript y Bootstrap.
-- 🐍 Creo aplicaciones y APIs con **Python + Flask**, integrando servicios externos.
-- 🔐 Me importa la seguridad básica: variables de entorno, timeouts, validación y dependencias al día.
-- 🎯 Busco mi **primer rol como desarrollador fullstack** o proyectos freelance donde pueda seguir creciendo.
-- 📍 Bahía Blanca
+- 🎓 Doy clases de informática en una escuela técnica: programación, hardware y herramientas digitales.
+- 🛠️ Tengo **12 años en soporte IT onsite e infraestructura**: diagnóstico, redes, sistemas y trato directo con usuarios.
+- 🐍 Desarrollo con **Python, Flask y SQLite**: migraciones versionadas, auditoría, validaciones y tests automatizados.
+- 📊 Analizo datos públicos con **pandas y matplotlib**: descargo desde APIs oficiales, calculo y publico informes reproducibles.
+- 🔐 Cuido los detalles que suelen pasarse por alto: variables de entorno, CSRF, timeouts y validación en el servidor.
+- 🎯 Busco mi **primer rol como desarrollador** o proyectos freelance donde pueda seguir creciendo.
+- 📍 Bahía Blanca, Argentina
 
 ### Lo que puedo aportar a un equipo
 
-- **Comunicación:** experiencia explicando tecnología a personas con niveles muy distintos.
-- **Diagnóstico:** experiencia real resolviendo problemas bajo presión en soporte.
-- **Documentación:** escribo guías y READMEs para que otros puedan seguir mis pasos.
-- **Aprendizaje continuo:** formación autodidacta y proyectos propios, sin esperar a que me lo pidan.
+- **Comunicación:** explicar tecnología a personas con niveles muy distintos, desde alumnos hasta usuarios finales.
+- **Diagnóstico:** resolver problemas bajo presión, con método y documentación.
+- **Datos:** convertir una API oficial en un informe que alguien entienda en cinco minutos.
+- **Responsabilidad:** si publico algo, lo puedo explicar y defender línea por línea.
 
 ## Stack
 
@@ -44,19 +48,48 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask">
   <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas">
+  <img src="https://img.shields.io/badge/matplotlib-11557C?style=flat-square&logo=matplotlib&logoColor=white" alt="matplotlib">
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
 </p>
 
 ## Proyectos destacados
 
-| Proyecto | Qué muestra | Stack | Código |
+### Análisis de datos con APIs públicas
+
+| Proyecto | Pregunta que responde | Hallazgo principal | Informe | Código |
+|---|---|---|---|---|
+| **Inflación argentina (INDEC)** | ¿Qué le pasó al poder de compra entre 2016 y 2026? | **12.685,9%** acumulado; $100.000 de 2016 hoy equivalen a $782 | [Ver informe](https://sebacatena.github.io/datos-indec/) | [Ver código](https://github.com/SebaCatena/datos-indec) |
+| **Recaudación tributaria (ARCA/Hacienda + INDEC)** | ¿La recaudación le ganó a la inflación? | **+7.742,1% nominal**, pero **−38,7% real** frente al IPC | [Ver informe](https://sebacatena.github.io/recaudacion-tributaria/) | [Ver código](https://github.com/SebaCatena/recaudacion-tributaria) |
+
+Los dos informes se generan automáticamente: `descargar_datos.py` baja los datos de la API oficial, `analisis.py` calcula y dibuja, y GitHub Pages publica el resultado. Un `actualizar.bat` permite refrescarlos con doble clic en Windows.
+
+### Aplicaciones y sistemas
+
+| Proyecto | Qué hace | Stack | Código |
 |---|---|---|---|
-| **[Estudio Contable](https://github.com/SebaCatena/estudio-contable)** | Gestión de clientes y contabilidad por partida doble: asientos, libros, facturación con IVA, auditoría y tests automatizados. | Python · Flask · SQLite | [Ver código](https://github.com/SebaCatena/estudio-contable) |
-| **[Tienda de Ropa](https://github.com/SebaCatena/Tienda)** | Catálogo responsive con carrito: agregar, cambiar cantidades, calcular total y checkout simulado. | HTML · CSS · JavaScript | [Ver código](https://github.com/SebaCatena/Tienda) · [Demo](https://sebacatena.github.io/Tienda/) |
-| **[API Flask Demo](https://github.com/SebaCatena/api-flask-demo)** | App Flask que consume una API externa, con búsqueda, detalle, manejo de errores y tests. | Python · Flask · Requests · Pytest | [Ver código](https://github.com/SebaCatena/api-flask-demo) |
-| **[Tu Tienda de Ropa](https://github.com/SebaCatena/tu-tienda-de-ropa)** | Sitio institucional desarrollado en equipo: home, productos, locales, contacto y formularios. | Bootstrap · JavaScript · CSS | [Ver código](https://github.com/SebaCatena/tu-tienda-de-ropa) |
+| **Estudio Contable** | Sistema real para un estudio contable: clientes, ejercicios, partida doble, facturación con IVA, asiento automático, libros y auditoría. 7 tests automatizados. Repositorio privado por datos de clientes. | Python · Flask · SQLite | *Privado — disponible a requerimiento* |
+| **Tienda de Ropa** | Catálogo responsive con carrito funcional, cantidades y checkout simulado. | HTML · CSS · JavaScript | [Código](https://github.com/SebaCatena/Tienda) · [Demo](https://sebacatena.github.io/Tienda/) |
+| **API Flask Demo** | App Flask que consume una API externa: búsqueda, detalle, manejo de errores y tests. | Python · Flask · Requests · Pytest | [Código](https://github.com/SebaCatena/api-flask-demo) |
+| **Tu Tienda de Ropa** | Sitio institucional desarrollado en equipo: home, productos, locales y contacto. | Bootstrap · JavaScript · CSS | [Código](https://github.com/SebaCatena/tu-tienda-de-ropa) |
+
+## Cómo trabajo los proyectos de datos
+
+1. Elijo una fuente oficial y la cito con su ID de serie.
+2. Bajo los datos por API y guardo el CSV junto con sus metadatos.
+3. Calculo con pandas y **verifico los números a mano** antes de publicar.
+4. Grafico con matplotlib y escribo un informe con conclusiones, no solo gráficos.
+5. Publico el informe en GitHub Pages y dejo todo reproducible.
+
+Tengo un plan de **9 análisis de APIs públicas argentinas**: ya están los dos primeros (INDEC y recaudación). Siguen BCRA (dólar y tasas), producción industrial, IPC por rubro, pobreza/EPH, energía, educación, datos abiertos de Bahía Blanca y comparación internacional.
+
+## Formación
+
+- **Técnico Superior en Computación** — UNS, Bahía Blanca.
+- **Codo a Codo 4.0 · Full Stack Python** — 198 horas, Agencia de Habilidades para el Futuro, GCBA / Ministerio de Educación.
+- **CCNA y cursos de redes y soporte** — UTN.
 
 ## Contacto
 
-¿Tenés un proyecto en mente o una búsqueda abierta? Escribime por [LinkedIn](https://www.linkedin.com/in/sebastian-catenacci-a404383b0/).
+¿Tenés un proyecto en mente o una búsqueda abierta? Escribime por [LinkedIn](https://www.linkedin.com/in/sebastian-catenacci-a404383b0/) o por [email](mailto:catenaccisebastian@gmail.com).
